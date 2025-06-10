@@ -89,6 +89,9 @@ Each segment is learned as a separate DMP, capturing the movement dynamics while
 ### 5. PID Control
 A PID controller ensures precise trajectory following by computing position corrections based on the desired DMP trajectory.
 
+### 6. Selecting best expert
+We choose the expert situation that matches as close to our current simulation for maximum performance.
+
 ## File Descriptions
 
 ### `dmp.py`
